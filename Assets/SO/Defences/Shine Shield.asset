@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f97941318f5eb142a70563bc3e2d686, type: 3}
+  m_Name: Shine Shield
+  m_EditorClassIdentifier: 
+  defName: shine shield
+  id: Defence2
+  sprite: {fileID: 1646839539390508337, guid: 5ef9c767d505c3948836f2dbe784d877, type: 3}
+  accuracy: 100
+  effect: {fileID: 11400000, guid: 9a0cd890a30ffd64fb6053cc8e3ff72e, type: 2}
+  form: 2

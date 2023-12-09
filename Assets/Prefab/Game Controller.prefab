@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7705745192421993149
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7705745192421993144}
+  - component: {fileID: 7705745192421993145}
+  - component: {fileID: 7705745192421993150}
+  - component: {fileID: 7705745192421993151}
+  - component: {fileID: 7705745192421993148}
+  - component: {fileID: 7705745192421993147}
+  m_Layer: 0
+  m_Name: Game Controller
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7705745192421993144
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7705745192421993149}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.6796727, y: -0.9865618, z: -14.303645}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7705745192421993145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7705745192421993149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 350ed5657f008e740b85317b3f2c5229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Stage: Forest
+  EncounterStage: Forest Encounter
+  pb: {fileID: 0}
+  eb: {fileID: 0}
+  player: {fileID: 0}
+  enemy: {fileID: 0}
+--- !u!114 &7705745192421993150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7705745192421993149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27ee4de4c67182e449f912dd18b5bf58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHp: 15
+  hp: 15
+  atk: 4
+  def: 0
+  spd: 2
+--- !u!114 &7705745192421993151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7705745192421993149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b0c17e8015a0314b833bfcba1b46658, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHp: 10
+  hp: 10
+  exp: 10
+  atk: 3
+  def: 0
+  spd: 1
+--- !u!114 &7705745192421993148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7705745192421993149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ab1370635d9ede4086210c6a063bef7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Slime_P: {fileID: 2941956228765185936, guid: 6a0ec43d3a6012448b8385ddc56d7449, type: 3}
+  Bear_P: {fileID: 5501993840438770262, guid: d7ecefdcbb4fd574c85db1a4b586a2b5, type: 3}
+  Werewolf_P: {fileID: 1587005234313584203, guid: e00b53c08d1c25b4da217d1f268889bb, type: 3}
+  Orc_Green_P: {fileID: 4832590910050042206, guid: a56b44a14efbb324e823c71eb423a0de, type: 3}
+  Snake_P: {fileID: 3105850702635131653, guid: ba163d517f983f4418ea9ca7bb6c6d71, type: 3}
+  Orc_Shaman_P: {fileID: 2441949315389720006, guid: 83a2ac5906add3d478b9323a2be23ebc, type: 3}
+  testing: 0
+  currentClass: 0
+  pathName: 
+  SaveBeginning: 0
+--- !u!114 &7705745192421993147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7705745192421993149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ad2792c1ecbb2647ba6f3c00717df6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

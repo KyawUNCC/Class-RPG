@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75719c00d8debda418bd954c3035a2eb, type: 3}
+  m_Name: Lightning Strike
+  m_EditorClassIdentifier: 
+  atkName: lightning strike
+  damage: 1
+  id: Attack1
+  sprite: {fileID: -4176445809780997858, guid: 235fe0f57cede2b41a4bf3d47ea2ea50, type: 3}
+  move: 1
+  effect: {fileID: 11400000, guid: 1d1857a46c211ce4eaedbe601b7b5daa, type: 2}
+  form: 1

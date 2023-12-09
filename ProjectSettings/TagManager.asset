@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Collision
+  - Enemy
+  - EncounterController
+  - PlayerBlock
+  - Enemy List
+  - EnemyBlock
+  - PlayerHealthBar
+  - EnemyHealthBar
+  - PlayerCollection
+  - UpgradeMenu
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - Ground +1
+  - Ground
+  - Ground -1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1224435997
+    locked: 0
+  - name: Ground -1
+    uniqueID: 3117685027
+    locked: 0
+  - name: Ground
+    uniqueID: 940531141
+    locked: 0
+  - name: Ground +1
+    uniqueID: 57906947
+    locked: 0
+  - name: Player Highlight
+    uniqueID: 1240621005
+    locked: 0
+  - name: Player
+    uniqueID: 3184735403
+    locked: 0
+  - name: Enemy
+    uniqueID: 2703778009
+    locked: 0
+  - name: Ground Front
+    uniqueID: 179254283
+    locked: 0
+  - name: Collision
+    uniqueID: 1582404335
+    locked: 0
+  - name: FX
+    uniqueID: 234693437
+    locked: 0
+  - name: FX +1
+    uniqueID: 1127909187
+    locked: 0
+  - name: UI
+    uniqueID: 2971995641
+    locked: 0
+  - name: UI +1
+    uniqueID: 2309998031
+    locked: 0

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f97941318f5eb142a70563bc3e2d686, type: 3}
+  m_Name: Katana Block
+  m_EditorClassIdentifier: 
+  defName: katana block
+  id: Defence2
+  sprite: {fileID: -3430851730698682744, guid: c0a83852f661ad348ad69ff946e0fe47, type: 3}
+  accuracy: 100
+  effect: {fileID: 11400000, guid: cc2e3cfb937fa0f42ad6e8da21d6f132, type: 2}
+  form: 2

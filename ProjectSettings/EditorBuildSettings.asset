@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 1454636625912b64faaa7fe46c598604
+  - enabled: 1
+    path: Assets/Scenes/Forest.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Forest Encounter.unity
+    guid: 9059ed8c488a812448569c1a7ee74353
+  - enabled: 1
+    path: Assets/Scenes/Desert.unity
+    guid: a7deb975032d7d042b1c2efeb7c544ea
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: 55b3baca27205bb4096c565956b1455c
+  - enabled: 1
+    path: Assets/Scenes/Lose.unity
+    guid: ac2bdb893dda6e949a6ba4c408b3b018
+  - enabled: 1
+    path: Assets/Scenes/Desert Encounter.unity
+    guid: 75fb16155ce6a3e48807ea855b6e9486
+  m_configObjects: {}

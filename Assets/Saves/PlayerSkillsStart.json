@@ -1,0 +1,20 @@
+{
+    "samuraiAtk1": true,
+    "samuraiAtk2": false,
+    "samuraiAtk3": false,
+    "samuraiDef1": true,
+    "samuraiDef2": false,
+    "samuraiDef3": false,
+    "wizardAtk1": true,
+    "wizardAtk2": false,
+    "wizardAtk3": false,
+    "wizardDef1": true,
+    "wizardDef2": false,
+    "wizardDef3": false,
+    "robotAtk1": true,
+    "robotAtk2": false,
+    "robotAtk3": false,
+    "robotDef1": true,
+    "robotDef2": false,
+    "robotDef3": false
+}

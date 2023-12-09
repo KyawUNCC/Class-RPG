@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f97941318f5eb142a70563bc3e2d686, type: 3}
+  m_Name: Sword Block
+  m_EditorClassIdentifier: 
+  defName: sword block
+  id: Defence1
+  sprite: {fileID: 872000403840971672, guid: fdd74c651d9302646a986516231d7a19, type: 3}
+  accuracy: 100
+  effect: {fileID: 11400000, guid: 47a2964469f89e9449e349aed5062287, type: 2}
+  form: 1
